@@ -1,6 +1,6 @@
-# 1179. Reformat Department Table (https://leetcode.com/problems/reformat-department-table/)
-# author: Navya Dahiya
-# created: 8 Jan, 2022
+-- 1179. Reformat Department Table (https://leetcode.com/problems/reformat-department-table/)-
+-- author: Navya Dahiya
+-- created: 8 Jan, 2022
 
 SELECT id, 
     SUM(CASE WHEN month = 'Jan' THEN revenue ELSE null END) as 'Jan_Revenue',

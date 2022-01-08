@@ -1,6 +1,6 @@
-# 180. Consecutive Numbers (https://leetcode.com/problems/consecutive-numbers/)
-# author: Navya Dahiya
-# created: 8 Jan, 2022
+-- 180. Consecutive Numbers (https://leetcode.com/problems/consecutive-numbers/)
+-- author: Navya Dahiya
+-- created: 8 Jan, 2022
 
 SELECT DISTINCT L1.num as ConsecutiveNums
     FROM Logs L1, Logs L2, Logs L3
